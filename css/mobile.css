@@ -1,0 +1,105 @@
+ 
+
+    section{
+      height: 100vh;
+    }
+    .email{
+      font-size: 12px;
+    }
+    .about-image{
+      width:40%; 
+      float:left; 
+      margin-right:50px;
+    }
+ @media only screen and (max-width: 768px) {  
+      .about-text-1{
+        display: none;
+      }
+      .slides img{
+        height:145vh;
+      }
+      .about-text-3{
+        padding-top:30px;
+        font-size: 10px;
+      }
+      .about-text-2{
+          padding-top:200px;
+          font-size:12px;
+          display: block;
+        }
+        .features-box{
+          padding: 0px;
+        }
+        .about-image{
+          width:65%;
+        }
+        .column{
+        float: left;
+        width: 50%;
+        margin-bottom: 16px;
+        padding: 0 8px;
+        }
+    }
+@media only screen and (max-width: 878px) {  
+      .about-text-1{
+        display: none;
+      }
+      .slides img{
+        height:145vh;
+      }
+      .features-box{
+        padding: 0px;
+      }
+      .about-text-2{
+          font-size:12px;
+          display: block;
+        }
+        .column{
+          float: left;
+          width: 50%;
+          margin-bottom: 16px;
+          padding: 0 8px;
+          }
+    }
+@media only screen and (max-width: 912px) {  
+      .about-text-1{
+        display: none;
+      }
+      .slides img{
+        height:145vh;
+      }
+      .features-box{
+        padding: 0px;
+      }
+      .about-text-2{
+          font-size:14px;
+          display: block;
+        }
+        .column{
+          float: left;
+          width: 100%;
+          margin-bottom: 16px;
+          padding: 0 8px;
+          }
+    }
+    @media only screen and (max-width: 375px) {  
+      .about-text-1{
+        display: none;
+      }
+      .slides img{
+        height:145vh;
+      }
+      .features-box{
+        padding: 0px;
+      }
+      .about-text-2{
+          font-size:14px;
+          display: block;
+        }
+        .column{
+          float: left;
+          width: 100%;
+          margin-bottom: 16px;
+          padding: 0 8px;
+          }
+    }
